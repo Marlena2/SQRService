@@ -1,11 +1,10 @@
 package ru.netology.sqr;
 
-import org.junit.jupiter.api.Assertions;
+
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class SQRServiceTest {
+public class SQRServiceTest {
     @Test
     public void validData() {
         SQRService service = new SQRService();
